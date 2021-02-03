@@ -1,0 +1,9 @@
+.carga{
+    width: 150px;
+    display: none;
+}
+.carga.visible{
+    /*width: 30px;
+    height: 30px;*/
+    display: block;
+}

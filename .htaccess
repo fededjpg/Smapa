@@ -1,0 +1,11 @@
+Options All -Indexes
+
+ErrorDocument 404 http://localhost/proyectoSmapa/error/404.html
+
+ErrorDocument 403  http://localhost/proyectoSmapa/error/403.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

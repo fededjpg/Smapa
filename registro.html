@@ -1,0 +1,100 @@
+<!------ Include the above in your HEAD tag ---------->
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="css/validarFromulario.css">
+
+    <link rel="icon" href="Favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="librerias/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/registrar.css">
+
+    <title>Laravel</title>
+</head>
+<body>
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
+    <div class="container">
+    <a class="navbar-brand" href="#">Laravel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Register</a>
+            </li>
+        </ul>
+
+    </div>
+    </div>
+</nav> -->
+
+<main class="my-form">
+    <div class="cotainer">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header">Register</div>
+                        <div class="card-body">
+                            <form id= "form-registro" >
+                                
+
+                                <div class="form-group row">
+                                    <label for="email_address" class="col-md-4 col-form-label text-md-right">E-Mail Address</label>
+                                    <div class="col-md-6">
+                                        <input type="email" id="email" class="form-control" name="email" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="user_name" class="col-md-4 col-form-label text-md-right">User Name</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="user" class="form-control" name="user" required >
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="full_name" class="col-md-4 col-form-label text-md-right">Contraseña</label>
+                                    <div class="col-md-6">
+                                        <input type="password" id="full_name" class="form-control" name="passwd" required>
+                                    </div>
+                                </div>
+
+
+                                    <div class="col-md-6 offset-md-4">
+                                        <button type="submit" class="btn btn-primary">
+                                        Registrar
+                                        </button>
+                                    </div>
+
+                                    <div class="response"></div>
+                                    <div class="draw">
+                                        <img src="img/envio.gif" class="carga">
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+</body>
+<script src="librerias/jquery-3.2.1.min.js"></script>
+<script src="librerias/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/validarRegistro.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+</body>
+</html>
